@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, p, a {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar, [class^="col"]>div {
+    background-color: #999999;
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+    border-bottom: none!important;
+  }
